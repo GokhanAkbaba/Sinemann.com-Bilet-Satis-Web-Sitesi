@@ -1,0 +1,708 @@
+				body{
+					margin:0px;
+				
+				}
+			   .banne
+				{
+					height:100px;
+					width:80%;
+					min-width:780px;
+					margin:auto;
+					position:relative;
+					border-radius: 10px; 
+				}
+				.arama_sonuc
+				{
+					z-index:999;
+					border:1px ridge;
+					background-color: rgba(154, 185, 193, 1);
+					position:absolute;
+					margin-top:50px;
+					width:60%;
+					padding:5px 15px;
+					font:16px Arial;
+				}
+				#baslik
+				{
+					height:60px;
+					width:310px;
+					border-radius: 10px;
+					position:absolute;
+					top:20px;
+					left:15px;
+					
+					
+				}
+				#arama
+				{
+					height:60px;
+					width:60%;
+					border-radius: 10px;
+					position:absolute;
+					top:20px;
+					right:0px;
+					
+				}
+				.alt_menu
+				{
+					height:100px;
+					width:80%;
+					background-color:#85DAE8;
+					margin:auto;
+				}
+				.sehir
+				{
+					width:30%;
+					height:50px;
+					//background-color:yellow;
+					float:left;
+					margin-left:15px;
+					margin-top:25px;
+				}
+				.sehir_etiket
+				{
+					display:block;
+					margin-left:11%;
+					margin-top:-25px;
+				}
+				.sehir_secme
+				{
+					height: 45px;
+					width: 74%;
+					float: right;
+					margin-right: 2px;
+					display: block;
+					margin-top: -34px;
+					margin-left: 70px;
+									
+				}
+				.alt_menu,.banne{
+					min-width:1050px;
+				}
+				.tarih
+				{
+					width:30%;
+					height:50px;
+					//background-color:blue;
+					float:left;
+					margin-top:25px;
+					margin-left:43px;
+				}
+				.tarih_secme
+				{
+				    height:45px;
+					width:74%;
+					display:block;
+					float: right;
+					margin-right:2px;
+					margin-top:-37px;
+					margin-left:77px;
+					font-size:25px;
+				}
+				.tarih_etiket
+				{
+					margin-left:1%;
+					margin-top:-20px;
+				}
+				.salon
+				{
+					width:30%;
+					height:50px;
+					//background-color:blue;
+					float:left;
+					margin-top:25px;
+					margin-left:43px;
+					
+					
+				}
+				.salon_secme
+				{
+					height:45px;
+					width:73%;
+					display:block;
+					float: right;
+					margin-right:2px;
+					margin-top:-37px;
+					margin-left:77px;
+				}
+				.salon_etiket
+				{
+					
+					margin-left:1%;
+					margin-top:-20px;
+				}
+				.orta_menu
+				{
+					width:79.6%;
+					margin:auto;
+					margin-top:15px;
+					min-width:830px;
+				}
+				.film_alan
+				{
+					width:218px;
+					margin-left:40px;
+					margin-top:20px;
+					height:400px;
+					float:left;
+					position:relative;
+					background-color:white;
+				}
+				.film_resim
+				{
+					width:90%;
+					margin:auto;
+					margin-top:5px;
+					position:relative;
+					
+				}
+				.film_resim img
+				{
+					width:100%;
+					height:100%;
+				}
+				.bilgi
+				{
+					background-color:rgba(10,10,10,0.8);
+					position:absolute;
+					margin-left:70px;
+					margin-top:70px;
+				}
+				.footer
+				{
+					margin-top:30px;
+					width:79.6%;
+					margin-left:10%;
+					height:50px;
+					background-color:rgb(146, 146, 146);
+					border-radius:5px;
+					min-width:830px;
+				}
+				.eventName
+				{
+					font-size:140%;
+					margin-left:10%;
+					color:#5e666b;
+					text-decoration:none;
+				}
+				.secili_koltuk
+				{
+					background-color:#49ba8e;
+					color:#fff;
+				}
+				.secili_koltuk:hover
+				{
+					background: #49ba8e;
+					color: #fff;
+				}
+				.secilir_koltuk
+				{
+					color:#ccc;
+					background-color:grey;
+				}
+				.secilir_koltuk:hover
+				{
+					background-color:#49ba8e;
+					color:black;
+				}
+				.dolu_koltuk
+				{
+					background-color:#fec440;
+					color:black;
+				}
+				.koltuksec
+				{
+					width: 100%;
+					background: #d70031;
+					display: block;
+					text-align: center;
+					padding: 10px 0;
+					text-decoration: none;
+					color: #fff;
+					position:absolute;
+					bottom: 0px;
+					
+				}
+				.film_alan .bilgi{opacity:0;}
+				.film_alan:hover a[class*="bilgi"]{opacity:1;top:40%;}
+				.detay_govde
+				{
+					background-color:#ededed;
+					width:79.5%;
+					margin:auto;
+					margin-top:15px;
+					padding:3px;
+					min-width:1050px;
+				}
+				#arama .arama_sonuc .arama_link .arama_icerik
+				{
+					text-decoration:none;
+					width:100%;
+					height:30px;
+					line-height:30px;
+					border :1px ridge transparent;
+				}
+				#arama .arama_sonuc .arama_link .arama_icerik:
+				{
+					border :1px ridge #9AB1A5;
+				}
+				#arama .arama_sonuc .arama_link {
+					text-decoration:none;
+					color:#f2f2f2;
+				}
+				
+				.afis
+				{
+					
+					float:left;
+					margin-left:5px;
+					margin-top:15px;
+				}
+				.film_baslik_turkce
+				{
+					
+					border-bottom:2px solid black;
+					
+					height:150px;
+					width:80%;
+					margin-left:19%;
+				}
+				.film_ozet
+				{
+					border-bottom:2px solid black;
+					margin-left :15px;
+					
+					margin-top:10px;
+					width:80%;
+					margin-left:19%;
+					
+				}
+				.yonetmen
+				{
+					width:10%;
+					//border:2px solid black;
+					margin-left:12px;
+					
+				}
+				.oyuncular
+				{
+					width:50%;
+					//border:2px solid black;
+					margin-left:13%;
+					margin-top:-7.4%;
+					
+				}
+				.tur_sure
+				{
+					width:25%;
+					//border:2px solid black;
+					margin-left:65%;
+					margin-top:-7.4%;
+				}
+				.isaretler
+				{
+					width:16%;
+					border-bottom:2px solid black;
+					border-top:2px solid black;
+					
+					margin-left:9px;
+					height:50px;
+				
+				}
+				.detay_bilet_alim
+				{
+					width:80%;
+					
+					
+					margin-left:19%;
+					margin-top:-20px;
+				}
+				.detay_sehir
+				{
+					width:30%;
+					margin-left:2.3%;
+					margin-top:-15px;
+					
+				}
+				.detay_sehir_text
+				{
+					width:68%;
+					margin-left:2%;
+				}
+				.detay_tarih
+				{
+					margin-left:35%;
+					margin-top:-32px;
+					width:30%;
+					//border:2px solid black;
+				}
+				.detay_tarih_text
+				{
+					width:65%;
+					margin-left:29%;
+					margin-top:-20px;
+					display:block;
+				}
+				.detay_salon
+				{
+					width:30%;
+					//border:2px solid black;
+					margin-left:68%;
+					margin-top:-32px;
+				}
+				.detay_bilet_alim_buton
+				{
+					width: 90%;
+					height: 31px;
+					font-size: 20px;
+					background-color: #d70031;
+					color: white;
+					padding-top: 5px;
+					margin:auto;
+					margin-top:25px;
+					display:block;
+					text-align: center;
+					text-decoration: none;
+				}
+				.odeme_body
+				{
+					height:800px;
+					width:80%;
+					min-width:730px;
+					margin-left:auto;
+					margin-right:auto;
+					
+				}
+				.bilet_tipi_bolumu
+				{
+					min-height:60px;
+					width:90%;
+					margin-left:auto;
+					margin-right:auto;
+					margin-top:10px;
+				}
+				.bilet_tipi_baslik
+				{
+					width:90%;
+					height:52px;
+					margin-left:auto;
+					margin-right:auto;
+					background-color:white;
+				}
+				.bilet_secim_tablo
+				{
+				    width:100%;
+					margin-top:5px;
+				}
+				.biletler
+				{
+					width:90%;
+					margin-left:34px;
+					background-color:white;
+					box-shadow:4px -4px 2px 0px ;
+				}
+				.koltuk_no
+				{
+					width:20%;
+					background:#fff;
+				    border-bottom: 1px dotted #e1e2e3;
+					padding-bottom: 10px;
+					padding-top: 10px;
+				}
+				.koltuk_tipi
+				{
+					background: #fff;
+					border-bottom: 1px dotted #e1e2e3;
+					padding-bottom: 10px;
+					padding-top: 10px;
+					
+				}
+				.tip_secimi
+				{
+					width:100%;
+					height:35px;
+					
+				}
+				.kisi_bilgi
+				{
+					width:90%;
+					min-height:250px;
+					margin-left:auto;
+					margin-right:auto;
+					margin-top:30px;
+					background-color: white;
+					box-shadow:4px -4px 2px 0px ;
+					
+					
+				}
+				.iletisim_baslik
+				{
+					width:665px;
+					height:52px;
+					position:relative;
+					top:-2px;
+					left:0px;
+					
+				}
+				.iletisim_bilgi
+				{
+					width:40%;
+					min-width:240px;
+					height:60px;
+					float:left;
+					margin-top:10px;
+					margin-left:4%;	
+				}
+				.sol
+				{
+					width:69%;
+					min-width:540px;
+					float:left;
+				}
+				.iletisim_bilgi label
+				{
+					font-size:18px;
+					display:block;
+				}
+				.iletisim_bilgi input
+				{
+					height:32px;
+					width:95%;
+				}
+				.odeme
+				{
+					width:90%;
+					margin-left:4.5%;
+					margin-top:10px;
+					background-color:white;
+					box-shadow:4px -4px 2px 0px ;
+					
+				}
+				.kredi_bilgi
+				{
+					width:40%;
+					height:60px;
+					margin-top:10px;
+					margin-left:4%;
+					
+				}
+				.kredi_bilgi input
+				{
+					height:32px;
+					width:95%;
+				
+				}
+				.kredi_guven
+				{
+					width:40%;
+					height:60px;
+					margin-top:-60px;
+					margin-left:50%;
+				}
+				.kredi_guven input
+				{
+					height:32px;
+					width:95%;
+				}
+				.kredi_onay
+				{
+					width:40%;
+					height:60px;
+					margin-top:10px;
+					margin-left:50%;
+				}
+				.kredi_onay input
+				{
+					height:40px;
+					width:50%;
+					margin-left:46.5%;
+					background-color:#d70031;
+				}
+				.hesap_ic
+				{
+					width:90%;
+					margin-left:4%;
+					margin-top:2px;
+					
+				}
+				.hesap_ic p
+				{
+					font-size:15px;
+					text-align:center;
+					padding:5px;
+					
+				}
+				.hesap
+				{
+					width:29%;
+					margin-left:70%;
+					margin-top:5px;
+					background-color:white;
+					box-shadow:4px -4px 2px 0px ;
+					
+				}
+				.hesap_dis
+				{
+					width:90%;
+					margin-left:4%;
+					margin-top:2px;
+					
+					
+				}
+				.hesap_dis table
+				{
+					margin-left:35px;
+					
+				}
+				.fiyat
+				{
+					padding-left:35%;
+					
+				}
+				.bilet_bedeli
+				{
+					width:25%;
+				    margin-left:60%;
+					margin-top:-35px;
+					
+					
+				}
+				
+				.body_
+				{
+					background-color:#eff0f1;
+					
+				}
+				
+		.govde
+		{
+			
+			width:90%;
+			margin:auto;
+			min-width:405px;
+			background-color: #343434;
+		}
+		.koltuk_bilgi_govde
+		{
+			border-bottom:2px solid black;
+			width:90%;
+			margin-left:5%;
+			
+		}
+		.secilen_koltuklar
+		{
+			height:20px;
+			margin-top:20px;
+			width:90%;
+			margin-left:4.5%;
+			
+		}
+		.koltuk_govde
+		{
+			width:90%;
+			margin-left:4.5%;
+			margin-top:20px;
+		}
+		.koltuk_sira_isim
+		{
+			margin: 2px;
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			line-height: 25px;
+			font-size: 9px;
+			text-align:center;
+			z-index: 13;
+			cursor: pointer;
+			border-radius: 5px;
+			box-shadow: inset 0 0 0 1px #49ba8e;
+			padding: 3px 2px;
+		}
+		.koltuk_sira
+		{
+			
+			margin-top:10px;
+			margin-left:12%;
+		}
+		.koltuk_bas
+		{
+			padding: 0 20px;
+			font-weight: 700;
+			font-size: 25px;
+			color: #fff;
+		}
+		.perde_govde
+		{
+			margin-top:15px;
+			margin-left:4.5%;
+			width:90%;
+		}
+		.perde
+		{
+			background:url("https://www.cinemaximum.com.tr/Assets/Web/build/assets/images/screens/big-screen.png")center top no-repeat;
+			width: 100%;
+			height:50px;
+		}
+		.koltuk_durum_gostergesi
+		{
+			border-top:2px solid black;
+			width:55%;
+			margin-left:28%;
+			margin-top:19px;
+		}
+		.koltuk_durum_gostergesi_liste li
+		{
+			float:left;
+			margin-right: 75px;
+		}
+		ul
+		{
+			list-style-type: none;	
+		}
+		.koltuk_durum_gostergesi ul li label div
+		{
+			border:2px solid black;
+			width: 17px;
+			height: 17px;
+			border-radius: 2px;
+		}
+		.koltuk_durum_gostergesi_liste li label div.gosterge_bos
+		{
+			background-color:#808080;
+		}
+		.koltuk_durum_gostergesi_liste li label div.gosterge_dolu
+		{
+			background-color:#fec440;
+		}
+		.koltuk_durum_gostergesi_liste li label div.gosterge_secimin
+		{
+			background-color:#49ba8e;
+		}
+		.koltuk_secim_onay
+		{
+            width:8%;
+			margin-left:70%;
+			margin-top:15px;
+		}
+		.koltuk_secim_onay_butonu
+		{
+			padding:10px;
+			color: #fff;
+			line-height: 15px;
+			background-color: #eb1689;
+			border-radius: 3px;
+			font-size: 16px;
+			text-decoration:none;
+		}
+		.secilen-koltuk
+		{
+			text-align:center;
+			background: #fec440;
+			color: #000;
+			margin-left:4px;
+			border-radius:2px;
+			margin-top:4px;
+			float:left;
+			width:25px;
+		}
+		

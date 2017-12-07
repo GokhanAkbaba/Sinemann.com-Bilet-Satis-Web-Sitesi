@@ -1,0 +1,68 @@
+body
+{
+	background-color:#F8F8F8;
+}
+.panel_baslik
+{
+
+	width:80%;
+	margin-left:10%;
+	margin-top:5%;
+	border:1px solid;
+	background-color:gold;
+	
+}
+.baslik
+{
+	
+	width:40%;
+	text-align:center;
+	margin-left:28%;
+	
+}
+.govde
+{
+	
+	width:80%;
+	margin-left:10%;
+	margin-top:2%;
+	background:#DEF;
+}
+.menu
+{
+	
+	width:60%;
+	margin-left:20%;
+}
+#sekme
+{
+	width:90px;
+	height:60px;
+}
+#sekme_tus
+{
+	
+	
+	border-radius: 5px;
+	height:60px;
+	border:1px solid;
+	padding:3px;
+	cursor:pointer;
+	background-color:rgba(186, 175, 73, 0.27);
+	color:#BA4949;
+	
+}
+.araclar_menu
+{
+	
+}
+
+.bilet_islemler_govde,.koltuk_islemler_govde,.filmler_islemler_govde,.salon_islemler_govde
+{
+	background-color:rgba(221, 102, 102, 0.42);
+	width:80%;
+	margin-left:10%;
+	margin-top:2%;
+}
+
+	
